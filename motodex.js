@@ -30,7 +30,7 @@ async function main() {
     console.log("Type 0", type0);
 
     const type2 = await contract.updateCounter({
-        nonce
+        nonce,
     });
 
     console.log("Type2: ", type2);
